@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameVault</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 GameVault</h1>
+        <p>Upload and download your favorite gaming files easily.</p>
+
+        <div class="upload-section">
+            <input type="file" id="fileUpload">
+            <button onclick="uploadFile()">Upload</button>
+        </div>
+
+        <div class="download-section">
+            <h2>Available Downloads</h2>
+            <ul id="fileList">
+                <li><a href="#">ExampleFile.zip</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function uploadFile() {
+            alert("Upload feature works locally for now!");
+        }
+    </script>
+</body>
+</html>

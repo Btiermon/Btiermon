@@ -1,0 +1,38 @@
+body {
+    background: url('https://images.unsplash.com/photo-1606112219348-204d7d8b94ee?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    backdrop-filter: blur(3px);
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    margin: 10% auto;
+    padding: 40px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.2);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #00ff88;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #00cc66;
+}
