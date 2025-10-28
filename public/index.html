@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Game File Upload</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to right, #111, #333);
+        color: white;
+        text-align: center;
+        padding-top: 100px;
+      }
+      .box {
+        background: #222;
+        padding: 40px;
+        border-radius: 10px;
+        width: 300px;
+        margin: auto;
+        box-shadow: 0 0 10px #00ffcc;
+      }
+      input {
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h2>🎮 Upload Your File</h2>
+      <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" /><br />
+        <button type="submit">Upload</button>
+      </form>
+      <p><a href="/files">View Uploaded Files</a></p>
+    </div>
+  </body>
+</html>
